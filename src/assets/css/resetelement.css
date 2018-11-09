@@ -1,0 +1,105 @@
+/**
+*
+*覆盖原生的element 样式
+*
+*/
+
+
+/* index页面中重置  element 原生样式 */
+
+.aprus-pagination .pagination-box li.number {
+    min-width: 20px;
+}
+
+.index-container .el-table th,
+.index-container .el-table tr,
+.index-container .el-table .el-table__empty-block {
+    background: #12254F;
+}
+
+.index-container .lead-search .search-box .search-item .el-input__inner {
+    background-color: #12254F;
+    border: 2px solid #164584;
+}
+
+.index-container .el-table td,
+.index-container .el-table th.is-leaf {
+    border-bottom: 1px solid #1A2F5F;
+}
+
+.index-container .el-table::before {
+    height: 0;
+}
+
+.index-container .el-table td,
+.index-container .el-table th.is-leaf {
+    color: #6B7EA9;
+}
+
+.index-container .el-table--enable-row-hover .el-table__body tr:hover>td {
+    background-color: #21A7F9;
+    color: #fff;
+}
+
+.index-container .el-table__body .el-table__row.current-row td {
+    background: #21A7F9;
+    color: #fff;
+}
+
+.index-container .el-table__body tr>td:nth-child(1) {
+    color: #D1CE66;
+}
+
+.index-container .el-table__body tr>td:nth-child(2) {
+    color: #3EF099;
+}
+
+.index-container .el-table__body tr>td:nth-child(3) {
+    color: #21A7F9;
+}
+
+.index-container .el-table__body tr>td:nth-child(4) {
+    color: #F56988;
+}
+
+.index-container .el-table--fit {
+    background: #12254F;
+}
+
+.index-container .el-table__header-wrapper thead.has-gutter tr {
+    height: 50px;
+    line-height: 50px;
+}
+
+.index-container .el-table__body-wrapper tbody tr {
+    height: 50px;
+    line-height: 50px;
+}
+
+.index-container .el-pagination .el-pager li {
+    color: #1F74BE;
+    border: 1px solid #1F74BE;
+    margin: 0 3px;
+    background-color: inherit;
+}
+
+.index-container .el-pagination .el-pager li.active {
+    color: #fff;
+    background-color: inherit;
+}
+
+.index-container .el-pagination .el-pagination__total {
+    background-color: inherit;
+}
+
+.index-container .el-pagination .btn-prev,
+.index-container .el-pagination .btn-next {
+    color: #1F74BE;
+    border: 1px solid #1F74BE;
+    background-color: inherit;
+}
+
+.index-container .el-pagination .el-pagination__jump .el-input__inner {
+    background-color: inherit;
+    border-color: #1F74BE;
+}

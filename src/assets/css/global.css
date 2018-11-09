@@ -1,0 +1,33 @@
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexauto {
+    flex: 1;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
